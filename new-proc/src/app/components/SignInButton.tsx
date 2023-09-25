@@ -15,9 +15,14 @@ const SigninButton = () => {
         );
     }
     return (
-        <button onClick={() => signIn()} className="text-green-600 ml-auto">
-            Sign In
-        </button>
+        <div>
+            <button onClick={() => signIn()} className="text-green-600 ml-auto">
+                Sign In
+            </button>
+            {/* <button className="text-blue-500" onClick={() => signIn('facebook')} >
+                Sign in with Facebook
+            </button> */}
+        </div>
     );
 };
 
